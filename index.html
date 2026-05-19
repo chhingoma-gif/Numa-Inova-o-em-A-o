@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Numa Inovação em Ação - Impulsionando o progresso tecnológico em Angola e África">
+    <meta name="author" content="Numa Team">
+    <title>Numa Inovação em Ação | Transformando Ideias em Impacto</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navegação -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <h1>🚀 NUMA</h1>
+            </div>
+            <button class="menu-toggle" id="menuToggle">☰</button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="active">Início</a></li>
+                <li><a href="#missao">Missão</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#contato">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Inovação em Ação</h1>
+                <p class="hero-subtitle">Desenvolvendo soluções tecnológicas que transformam Angola e África</p>
+                <div class="cta-buttons">
+                    <a href="#contato" class="btn btn-primary">Começar Agora</a>
+                    <a href="#servicos" class="btn btn-secondary">Saber Mais</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Missão e Visão -->
+    <section id="missao" class="mission-vision">
+        <div class="container">
+            <div class="mission-box">
+                <h2>🎯 Nossa Missão</h2>
+                <p>Desenvolver soluções tecnológicas práticas que impulsionam o progresso em Angola e África, criando ferramentas inovadoras que resolvem problemas reais.</p>
+            </div>
+            <div class="vision-box">
+                <h2>👁️ Nossa Visão</h2>
+                <p>Ser a principal plataforma de inovação tecnológica que transforma ideias em impacto real e escalável, liderando a transformação digital africana.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Serviços -->
+    <section id="servicos" class="services">
+        <div class="container">
+            <h2 class="section-title">Nossos Serviços</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">💡</div>
+                    <h3>Consultoria Tecnológica</h3>
+                    <p>Estratégias inovadoras adaptadas às necessidades do seu negócio em contexto africano.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">⚙️</div>
+                    <h3>Desenvolvimento de Software</h3>
+                    <p>Aplicações web e mobile de alta qualidade, escaláveis e seguras.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🔒</div>
+                    <h3>Segurança Digital</h3>
+                    <p>Proteção robusta de dados e infraestrutura contra ameaças cibernéticas.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">📊</div>
+                    <h3>Analytics & Big Data</h3>
+                    <p>Análise de dados avançada para tomada de decisões informadas.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🤖</div>
+                    <h3>IA & Automação</h3>
+                    <p>Soluções inteligentes que automatizam processos e aumentam eficiência.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">📱</div>
+                    <h3>Transformação Digital</h3>
+                    <p>Modernização de processos negócios através de tecnologia disruptiva.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre a Empresa -->
+    <section id="sobre" class="about">
+        <div class="container">
+            <h2 class="section-title">Sobre a NUMA</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Quem Somos</h3>
+                    <p>A NUMA é uma startup tecnológica focada em resolver desafios reais em Angola e em toda a África através da inovação e tecnologia.</p>
+                    <p>Nossa equipa é composta por desenvolvedores, designers e consultores apaixonados por criar impacto positivo através da tecnologia.</p>
+                    <h3>Nossos Valores</h3>
+                    <ul class="values-list">
+                        <li><strong>Inovação:</strong> Pensamos diferente, criamos soluções únicas</li>
+                        <li><strong>Impacto:</strong> Cada solução deve gerar valor real</li>
+                        <li><strong>Integridade:</strong> Trabalhamos com transparência e ética</li>
+                        <li><strong>Inclusão:</strong> Tecnologia acessível para todos</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Formulário de Contacto -->
+    <section id="contato" class="contact">
+        <div class="container">
+            <h2 class="section-title">Entre em Contacto</h2>
+            <div class="contact-content">
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Nome Completo *</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Telefone</label>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mensagem *</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+                </form>
+                <div class="contact-info">
+                    <h3>Contacte-nos Directamente</h3>
+                    <p><strong>Email:</strong> <a href="mailto:info@numa.ao">info@numa.ao</a></p>
+                    <p><strong>Telefone:</strong> +244 923 456 789</p>
+                    <p><strong>Localização:</strong> Luanda, Angola</p>
+                    <div class="social-links">
+                        <a href="#" class="social-icon">👥 LinkedIn</a>
+                        <a href="#" class="social-icon">🐦 Twitter</a>
+                        <a href="#" class="social-icon">📘 Facebook</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>NUMA</h4>
+                    <p>Inovação que transforma realidades em Angola e África.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="#missao">Missão</a></li>
+                        <li><a href="#servicos">Serviços</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#contato">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Serviços</h4>
+                    <ul>
+                        <li><a href="#">Consultoria</a></li>
+                        <li><a href="#">Desenvolvimento</a></li>
+                        <li><a href="#">Segurança</a></li>
+                        <li><a href="#">IA & Automação</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 NUMA Inovação em Ação. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
